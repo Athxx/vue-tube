@@ -1,7 +1,5 @@
-<script setup lang="ts">
-import TopSection from './components/Tail.vue'
-</script>
-
 <template>
-  <TopSection msg="Custom Message!!! " />
+  <router-view />
 </template>
+
+<script setup lang="ts"></script>
