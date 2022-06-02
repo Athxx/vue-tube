@@ -1,231 +1,145 @@
 <template>
-  <div class="flex flex-col min-h-screen">
-    <header class="flex items-center py-3 px-3 z-10 shadow">
-      <!--  Menu Icon  -->
-      <svg
-        viewBox="0 0 24 24"
-        preserveAspectRatio="xMidYMid meet"
-        focusable="false"
-        class="w-8 h-8 opacity-75"
+  <Seo
+    title="404 Error"
+    description="Fastest digital download template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
+    url="/404"
+  />
+  <div class="flex h-full items-center justify-center p-4 md:p-6 xl:p-8">
+    <div class="max-w-md text-center xl:max-w-lg">
+      <div class="mx-auto h-36 w-36 text-light-900 dark:text-dark-600">
+        <svg viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M40.1069 127.53C38.2582 131.168 34.4454 133.709 30.0548 133.709C25.6642 133.709 21.8514 131.168 20.0027 127.53H18.7895V128.801C18.7318 134.921 23.8156 140.061 29.997 140.061C36.1785 140.061 41.2045 135.037 41.2045 128.858C41.2045 135.037 46.2306 140.061 52.412 140.061C58.5935 140.061 63.6195 135.037 63.6195 128.858C63.6195 135.037 68.6456 140.061 74.827 140.061C81.0085 140.061 86.0345 135.037 86.0345 128.858C86.0345 135.037 91.0606 140.061 97.242 140.061C103.423 140.061 108.45 135.037 108.45 128.858C108.45 135.037 113.476 140.061 119.657 140.061C125.896 140.061 130.922 134.979 130.865 128.801V127.53H129.651C127.803 131.168 123.99 133.709 119.599 133.709C115.209 133.709 111.396 131.168 109.547 127.53H107.179C105.33 131.168 101.517 133.709 97.1265 133.709C92.7359 133.709 88.9231 131.168 87.0744 127.53H84.7058C82.8572 131.168 79.0443 133.709 74.6537 133.709C70.2632 133.709 66.4503 131.168 64.6016 127.53H62.233C60.3844 131.168 56.5715 133.709 52.181 133.709C47.7904 133.709 43.9775 131.168 42.1289 127.53H40.1069Z"
+            fill="currentColor"
+            fillOpacity="0.15"
+          />
+          <path
+            d="M75.0003 9.32956C105.85 9.32956 131.153 34.5634 131.153 65.4562V72.7896L143.17 84.858C146.982 88.6691 146.982 94.9631 143.112 98.7742C139.877 102.008 134.908 102.47 131.153 100.275V128.858C131.153 135.037 126.127 140.061 119.946 140.061C113.764 140.061 108.738 135.037 108.738 128.858C108.738 135.037 103.712 140.061 97.5308 140.061C91.3494 140.061 86.3233 135.037 86.3233 128.858C86.3233 135.037 81.2973 140.061 75.1158 140.061C68.9344 140.061 63.9083 135.037 63.9083 128.858C63.9083 135.037 58.8823 140.061 52.7008 140.061C46.5194 140.061 41.4933 135.037 41.4933 128.858C41.4933 135.037 36.4673 140.061 30.2858 140.061C24.1044 140.061 19.0783 135.037 19.0783 128.858V100.275C15.3232 102.47 10.355 102.008 7.1198 98.7742C3.30694 94.9631 3.24917 88.6691 7.06203 84.858L19.0783 72.7896V65.4562C18.8472 34.6212 44.1508 9.32956 75.0003 9.32956Z"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M32.8277 86.6482L20.8114 98.7165C16.9986 102.528 10.7016 102.585 6.88869 98.7743C3.07583 94.9632 3.01806 88.6692 6.83092 84.8581L18.8472 72.7897"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M117.173 86.6482L129.189 98.7165C133.002 102.528 139.299 102.585 143.112 98.7743C146.925 94.9632 146.982 88.6692 143.17 84.8581L131.153 72.7897"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M48.5415 81.5089H101.402"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M79.853 85.4355H101.401V96.1757C101.401 102.066 96.5487 106.916 90.6561 106.916C84.7635 106.916 79.9107 102.066 79.9107 96.1757V85.4355H79.853Z"
+            fill="currentColor"
+            fillOpacity="0.15"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M79.853 81.5089H101.401V92.2492C101.401 98.139 96.5487 102.989 90.6561 102.989C84.7635 102.989 79.9107 98.139 79.9107 92.2492V81.5089H79.853Z"
+            fill="currentColor"
+          />
+          <path
+            d="M79.853 81.5089H101.401V92.2492C101.401 98.139 96.5487 102.989 90.6561 102.989C84.7635 102.989 79.9107 98.139 79.9107 92.2492V81.5089H79.853Z"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M90.5983 81.4512V94.9054"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M53.7984 45.246C57.669 45.246 60.7887 48.3641 60.7887 52.2329C60.7887 56.1017 57.669 59.2199 53.7984 59.2199C49.9278 59.2199 46.8082 56.1017 46.8082 52.2329C46.7504 48.3641 49.9278 45.246 53.7984 45.246Z"
+            fill="currentColor"
+            fillOpacity="0.15"
+          />
+          <path
+            d="M58.9401 47.0938L48.6569 57.4299"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M58.9401 57.4299L48.6569 47.0938"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M92.4469 45.246C96.3175 45.246 99.4372 48.3641 99.4372 52.2329C99.4372 56.1017 96.3175 59.2199 92.4469 59.2199C88.5763 59.2199 85.4567 56.1017 85.4567 52.2329C85.3989 48.3641 88.5763 45.246 92.4469 45.246Z"
+            fill="currentColor"
+            fillOpacity="0.15"
+          />
+          <path
+            d="M97.5886 47.0938L87.3054 57.4299"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M97.5886 57.4299L87.3054 47.0938"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeMiterlimit="22.9256"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+
+      <h2 class="pt-5 text-base font-semibold text-dark dark:text-light md:pt-7">No page found</h2>
+      <p class="pt-2.5">The page you were looking for isn&apos;t here</p>
+      <div
+        class="group mx-auto mt-7 inline-flex items-center gap-2 rounded border border-light-400 px-6 py-3.5 font-semibold text-dark transition-all hover:bg-light-400 hover:text-brand-dark dark:border-dark-400 dark:text-light dark:hover:bg-dark-400 dark:focus:bg-dark-400 md:mt-9"
       >
-        <g><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></g>
-      </svg>
-      <!--  Youtube Icon  -->
-      <svg
-        viewBox="0 0 200 60"
-        preserveAspectRatio="xMidYMid meet"
-        focusable="false"
-        class="w-24 h-10 ml-5"
-      >
-        <g viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet">
-          <g>
+        <div class="h-[18px] w-[18px] text-dark/40 group-hover:text-brand dark:text-light/60">
+          <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
-              fill="#FF0000"
-              d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
-              c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
-              C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
-              S64.31,19.77,63,14.87z"
-            ></path>
-            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"></polygon>
-          </g>
-          <g>
-            <g>
-              <path
-                fill="#282828"
-                d="M92.69,48.03c-1.24-0.84-2.13-2.14-2.65-3.91c-0.52-1.77-0.79-4.12-0.79-7.06v-4
-                c0-2.97,0.3-5.35,0.9-7.15c0.6-1.8,1.54-3.11,2.81-3.93c1.27-0.82,2.94-1.24,5.01-1.24c2.04,0,3.67,0.42,4.9,1.26
-                c1.23,0.84,2.13,2.15,2.7,3.93c0.57,1.78,0.85,4.16,0.85,7.12v4c0,2.94-0.28,5.3-0.83,7.08c-0.55,1.78-1.45,3.09-2.7,3.91
-                c-1.24,0.82-2.93,1.24-5.06,1.24C95.65,49.29,93.93,48.87,92.69,48.03z M99.66,43.71c0.34-0.9,0.52-2.37,0.52-4.4v-8.59
-                c0-1.98-0.17-3.42-0.52-4.34c-0.34-0.91-0.95-1.37-1.82-1.37c-0.84,0-1.43,0.46-1.78,1.37c-0.34,0.91-0.52,2.36-0.52,4.34v8.59
-                c0,2.04,0.16,3.51,0.49,4.4c0.33,0.9,0.93,1.35,1.8,1.35C98.71,45.06,99.31,44.61,99.66,43.71z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M188.16,37.13v1.39c0,1.77,0.05,3.09,0.16,3.98c0.1,0.88,0.32,1.53,0.65,1.93
-                c0.33,0.4,0.84,0.61,1.53,0.61c0.93,0,1.57-0.36,1.91-1.08c0.34-0.72,0.53-1.92,0.56-3.6l5.35,0.31
-                c0.03,0.24,0.04,0.57,0.04,0.99c0,2.55-0.7,4.45-2.09,5.71c-1.39,1.26-3.36,1.89-5.91,1.89c-3.06,0-5.2-0.96-6.43-2.88
-                c-1.23-1.92-1.84-4.88-1.84-8.9v-4.81c0-4.14,0.64-7.15,1.91-9.06c1.27-1.9,3.45-2.85,6.54-2.85c2.13,0,3.76,0.39,4.9,1.17
-                c1.14,0.78,1.94,1.99,2.41,3.64c0.46,1.65,0.7,3.93,0.7,6.83v4.72H188.16z M188.95,25.53c-0.31,0.39-0.52,1.03-0.63,1.91
-                c-0.11,0.88-0.16,2.23-0.16,4.02v1.98h4.54v-1.98c0-1.77-0.06-3.11-0.18-4.02c-0.12-0.91-0.34-1.56-0.65-1.93
-                c-0.31-0.37-0.8-0.56-1.46-0.56C189.75,24.94,189.26,25.14,188.95,25.53z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M77.59,36.61l-7.06-25.49h6.16l2.47,11.55c0.63,2.85,1.09,5.27,1.39,7.28h0.18
-                c0.21-1.44,0.67-3.85,1.39-7.24l2.56-11.6h6.16L83.7,36.61v12.23h-6.11V36.61z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M126.45,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
-                c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
-                c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H126.45z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M158.27,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
-                c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
-                c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H158.27z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M143.31,16.11h-6.16v32.72h-6.07V16.11h-6.16v-4.99h18.38V16.11z"
-              ></path>
-              <path
-                fill="#282828"
-                d="M178.8,25.69c-0.38-1.74-0.98-3-1.82-3.78c-0.84-0.78-1.99-1.17-3.46-1.17c-1.14,0-2.2,0.32-3.19,0.97
-                c-0.99,0.64-1.75,1.49-2.29,2.54h-0.05l0-14.52h-5.98v39.11h5.12l0.63-2.61h0.13c0.48,0.93,1.2,1.66,2.16,2.2
-                c0.96,0.54,2.02,0.81,3.19,0.81c2.1,0,3.64-0.97,4.63-2.9c0.99-1.93,1.48-4.95,1.48-9.06v-4.36
-                C179.36,29.84,179.17,27.43,178.8,25.69z M173.11,36.93c0,2.01-0.08,3.58-0.25,4.72c-0.16,1.14-0.44,1.95-0.83,2.43
-                c-0.39,0.48-0.91,0.72-1.57,0.72c-0.51,0-0.98-0.12-1.42-0.36c-0.43-0.24-0.79-0.6-1.06-1.08V27.71
-                c0.21-0.75,0.57-1.36,1.08-1.84c0.51-0.48,1.06-0.72,1.66-0.72c0.63,0,1.12,0.25,1.46,0.74c0.34,0.49,0.58,1.33,0.72,2.49
-                c0.13,1.17,0.2,2.83,0.2,4.99V36.93z"
-              ></path>
-            </g>
-          </g>
-        </g>
-      </svg>
-      <!--  search input  -->
-      <div class="flex-1 justify-center hidden sm:flex">
-        <input
-          type="text"
-          placeholder="Search"
-          class="border border-grey px-3 py-2 w-1/2 max-w-md outline-none rounded-l"
-        />
-        <button
-          class="flex justify-center items-center bg-grey-lighter px-6 border border-grey border-l-0 rounded-r focus:outline-none hover:bg-grey-light"
-        >
-          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="w-5 opacity-50">
-            <g>
-              <path
-                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-              ></path>
-            </g>
+              d="M16.5702 7.95923C16.5698 7.95886 16.5695 7.9585 16.5691 7.95813L10.0417 1.43164C9.76348 1.15332 9.39357 1 9.0001 1C8.60663 1 8.23672 1.1532 7.95837 1.43152L1.43439 7.95471C1.43219 7.95691 1.42999 7.95923 1.42779 7.96143C0.856447 8.53601 0.857424 9.46826 1.4306 10.0414C1.69247 10.3033 2.03833 10.4551 2.40812 10.4709C2.42314 10.4724 2.43827 10.4731 2.45353 10.4731H2.71369V15.2762C2.71369 16.2267 3.48709 17 4.43787 17H6.99159C7.25041 17 7.46039 16.7902 7.46039 16.5312V12.7656C7.46039 12.3319 7.81321 11.9791 8.24697 11.9791H9.75323C10.187 11.9791 10.5398 12.3319 10.5398 12.7656V16.5312C10.5398 16.7902 10.7497 17 11.0086 17H13.5623C14.5131 17 15.2865 16.2267 15.2865 15.2762V10.4731H15.5277C15.9211 10.4731 16.291 10.3199 16.5695 10.0416C17.1433 9.46753 17.1435 8.53369 16.5702 7.95923Z"
+              fill="currentColor"
+            />
           </svg>
-        </button>
-      </div>
-      <!--  Account  -->
-      <div class="ml-auto">
-        <span class="block rounded-full bg-grey-darker w-8 h-8"></span>
-      </div>
-    </header>
-    <!-- Main -->
-    <main class="flex-1 bg-grey-lightest z-0 py-5 px-5">
-      <div class="flex flex-wrap max-w-5xl mx-auto">
-        <!-- main col -->
-        <div class="w-full md:flex-1">
-          <!-- player -->
-          <div class="bg-black relative mb-3" style="padding-top: 55%">
-            <iframe
-              class="w-full h-full absolute pin-x pin-t"
-              src="https://www.youtube.com/embed/r4uWjTlsfQM?autoplay=0"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <!-- video info -->
-          <div class="flex flex-wrap items-end">
-            <!-- title -->
-            <div class="pb-2">
-              <h1 class="text-xl my-2">Video title text</h1>
-              <span class="text-base text-grey-darken">13 000 views</span>
-            </div>
-            <!-- buttons actions -->
-            <div class="ml-auto">
-              <!-- likes -->
-              <div class="flex relative pb-2">
-                <!-- like -->
-                <div class="flex items-center">
-                  <svg
-                    class="w-5 opacity-75"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g>
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <span class="text-xs text-grey-darken ml-1">1 300</span>
-                </div>
-                <!-- hate -->
-                <div class="flex items-center ml-5">
-                  <svg
-                    class="w-5 opacity-75"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                  >
-                    <g>
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <span class="text-xs text-grey-darken ml-1">300</span>
-                </div>
-                <div class="absolute w-full h-1 bg-grey pin-b t-5 rounded-full overflow-hidden">
-                  <div class="absolute pin-l pin-t w-3/4 h-full bg-grey-darkest"></div>
-                </div>
-              </div>
-            </div>
-            <hr class="w-full border-t m-0 mb-3" />
-          </div>
         </div>
-
-        <!--  aside -->
-        <aside class="w-full md:max-w-xs xl:max-w-full xl:w-1/4 md:pl-5 mt-5 md:mt-0">
-          <!-- up next -->
-          <div class="w-full">
-            <div class="flex w-full items-center justify-between mb-3">
-              <span>Up Next</span>
-              <div class="flex items-center">
-                <span class="text-sm mr-2">AUTOLAY</span>
-                <div class="bg-grey rounded-full w-8 h-3 flex items-center">
-                  <span class="block rounded-full w-5 h-5 bg-blue-dark ml-auto"></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex flex-wrap w-full">
-              <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
-              <div class="w-1/2 pl-2">
-                <h3 class="text-base mb-2">Video upcoming title</h3>
-                <p class="text-sm text-grey-darken mb-1">Chanel</p>
-                <p class="text-sm text-grey-darken mb-1">13K views</p>
-              </div>
-              <hr class="w-full my-4 border-t" />
-            </div>
-            <div class="flex flex-wrap w-full mb-3">
-              <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
-              <div class="w-1/2 pl-2">
-                <h3 class="text-base mb-2">Video upcoming title</h3>
-                <p class="text-sm text-grey-darken mb-1">Chanel</p>
-                <p class="text-sm text-grey-darken mb-1">13K views</p>
-              </div>
-            </div>
-            <div class="flex flex-wrap w-full mb-3">
-              <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
-              <div class="w-1/2 pl-2">
-                <h3 class="text-base mb-2">Video upcoming title</h3>
-                <p class="text-sm text-grey-darken mb-1">Chanel</p>
-                <p class="text-sm text-grey-darken mb-1">13K views</p>
-              </div>
-            </div>
-            <div class="flex flex-wrap w-full mb-3">
-              <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
-              <div class="w-1/2 pl-2">
-                <h3 class="text-base mb-2">Video upcoming title</h3>
-                <p class="text-sm text-grey-darken mb-1">Chanel</p>
-                <p class="text-sm text-grey-darken mb-1">13K views</p>
-              </div>
-            </div>
-          </div>
-        </aside>
       </div>
-    </main>
+    </div>
   </div>
 </template>
+
+<script setup lang="ts"></script>

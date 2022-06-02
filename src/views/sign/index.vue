@@ -1,14 +1,14 @@
 <template>
   <div class="h-screen flex">
     <div
-      class="flex w-1/2 bg-gradient-to-tr from-blue-600 to-purple-700 i justify-around items-center"
+      class="flex w-1/2 bg-gradient-to-tr from-blue-600 to-purple-700 i justify-around items-center text-center"
     >
       <div>
         <h1 class="text-white font-bold text-4xl font-sans">行空设计</h1>
-        <p class="text-white mt-1">The most popular peer to peer lending at SEA</p>
+        <p class="text-white mt-1">Sky Walker Design</p>
       </div>
     </div>
-    <div class="flex w-1/2 justify-center items-center bg-white">
+    <div class="flex w-1/2 justify-center items-center text-center bg-white">
       <form class="bg-white">
         <h1 class="text-gray-800 font-bold text-2xl mb-1">欢迎回来!</h1>
         <p class="text-sm font-normal text-gray-600 mb-7">Welcome Back !</p>
@@ -40,7 +40,7 @@
               d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
             />
           </svg>
-          <input id="" class="pl-2 outline-none border-none text-center" type="text" name="" />
+          <input id="" class="pl-2 outline-none border-none text-center" type="password" name="" />
         </div>
         <button
           type="submit"

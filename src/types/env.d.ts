@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 // global.d.ts
 declare module '*.vue' {
   import { DefineComponent } from 'vue'

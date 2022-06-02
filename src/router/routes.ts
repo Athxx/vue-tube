@@ -4,7 +4,7 @@ export const baseRoutes: Array<RouteRecordRaw> = [
   {
     name: 'home',
     path: '/',
-    component: () => import('../views/index.vue'),
+    component: () => import('../views/main/index.vue'),
     meta: { title: '首页' },
   },
   {

@@ -64,5 +64,6 @@
   "eslint.format.enable": true,
   "eslint.alwaysShowStatus": true,
   "stylelint.validate": ["css", "less", "postcss", "sass", "scss"],
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false
 }
